@@ -1,0 +1,110 @@
+body{
+  background-color: #F1F1F1;;
+}
+header{
+  padding-top: 21px;
+  padding-left: 137px;
+  margin-bottom: 42px;
+  .container{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  ul{
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+    a{
+      color: #000;
+      font-family: 'Roboto', sans-serif;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+  nav{
+    margin-right: 28px;
+   
+  }
+ 
+}
+
+.s-1{
+  margin-left: 137px;
+  h1{
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 27px;
+  }
+   .card1{
+    position: relative;
+    width: 365px;
+    height: 360px;
+
+    .img1{
+      height: 186px;
+    }
+
+    .carddiv{
+      border-radius: 0px 0px 5px 5px;
+      background: #FFF;
+      width: 362px;
+      height: 171px;
+
+      .mineh6{
+        color: #8A8787;
+        font-family: Roboto;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        width: 260px;
+        height: 38px;
+        padding-top: 55px;
+        padding-left: 25px;
+        padding-right: 20px;
+        width: 90%;
+        margin:0 auto;
+      }
+    }
+
+   }
+  h3{
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .myh6{
+    color: #8A8787;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .imgandh6{
+    display: flex;
+    width: 105px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 62px;
+    padding-left:40px;
+  }
+
+  
+
+}
