@@ -3,7 +3,7 @@ body{
 }
 header{
   padding-top: 21px;
-  padding-left: 137px;
+  padding-left: 162px;
   margin-bottom: 42px;
   .container{
     width: 400px;
@@ -32,7 +32,8 @@ header{
 }
 
 .s-1{
-  margin-left: 137px;
+  margin-left: 162px;
+  margin-bottom: 57px;
   h1{
     color: #000;
     font-family: Roboto;
@@ -41,6 +42,12 @@ header{
     font-weight: 700;
     line-height: normal;
     margin-bottom: 27px;
+  }
+  .container{
+    display: flex;
+    width: 1170px;
+    justify-content: space-between;
+   
   }
    .card1{
     position: relative;
@@ -75,12 +82,12 @@ header{
     }
 
    }
-  h3{
+  .s-1h3{
     position: absolute;
     top: 30px;
     left: 40px;
     color: #FFF;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
     font-size: 23px;
     font-style: normal;
     font-weight: 700;
@@ -107,4 +114,81 @@ header{
 
   
 
+}
+
+
+
+
+
+
+
+
+
+
+.s-2{
+  margin-left: 162px;
+  h1{
+    color: #000;
+    font-family: 'Roboto', sans-serif; ;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 30px;
+  }
+  .mydiv{
+    position: relative;
+    width:758px ;
+    height: 430px ;
+    border: 2px solid red;
+    margin-bottom: 42px;
+    
+  }
+  .s-2h3{
+    position: absolute;
+    top: 205px;
+    left: 270px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .picwrap{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 45px;
+  }
+  .imgwrap{
+    width: 362px;
+    height: 840px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .imgwrap2{
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+
+
+
+
+
+
+
+
+footer{
+  .footer{
+    background-color: #243043;
+    width: 1519px;
+    height: 201px;
+  }
+  ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
