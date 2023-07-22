@@ -242,10 +242,25 @@ header nav {
   vertical-align: top;
 }
 
+footer {
+  margin-top: 40px;
+}
 footer .footer {
   background-color: #243043;
   width: 1519px;
-  height: 201px;
+  height: 230px;
+}
+footer .ulwrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1100px;
+  padding-top: 60px;
+  padding-left: 162px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 60px;
 }
 footer ul {
   display: -webkit-box;
@@ -258,4 +273,27 @@ footer ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 88px;
+  height: 130px;
+  border: 2px solid red;
+}
+footer ul a {
+  color: #818687;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+footer h6 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer .mainwrap {
+  display: inline-block;
+  padding-right: 300px;
 }/*# sourceMappingURL=global.css.map */
