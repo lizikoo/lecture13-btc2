@@ -140,7 +140,6 @@ header{
     position: relative;
     width:758px ;
     height: 430px ;
-    border: 2px solid red;
     margin-bottom: 42px;
     
   }
@@ -184,7 +183,7 @@ footer{
    margin-top: 40px;
   .footer{
     background-color: #243043;
-    width: 1519px;
+    max-width: 1519px;
     height: 230px;
   }
   .ulwrap{
@@ -201,9 +200,6 @@ footer{
     justify-content: space-between;
     width: 88px;
     height: 130px;
-    border: 2px solid red;
-
-
 
     a{
       color:#818687;

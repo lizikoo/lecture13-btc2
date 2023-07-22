@@ -204,7 +204,6 @@ header nav {
   position: relative;
   width: 758px;
   height: 430px;
-  border: 2px solid red;
   margin-bottom: 42px;
 }
 .s-2 .s-2h3 {
@@ -247,7 +246,7 @@ footer {
 }
 footer .footer {
   background-color: #243043;
-  width: 1519px;
+  max-width: 1519px;
   height: 230px;
 }
 footer .ulwrap {
@@ -275,7 +274,6 @@ footer ul {
           justify-content: space-between;
   width: 88px;
   height: 130px;
-  border: 2px solid red;
 }
 footer ul a {
   color: #818687;
